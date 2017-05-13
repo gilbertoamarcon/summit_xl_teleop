@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+	<name>summit_xl_teleop</name>
+	<version>0.0.1</version>
+	<description>The summit_xl_teleop package</description>
+
+
+	<maintainer email="marcondg@oregonstate.edu">Gilberto Marcon dos Santos</maintainer>
+
+	<license>BSD</license>
+
+	<author email="marcondg@oregonstate.edu">Gilberto Marcon dos Santos</author>
+
+
+	<buildtool_depend>catkin</buildtool_depend>
+	<build_depend>diagnostic_updater</build_depend>
+	<build_depend>geometry_msgs</build_depend>
+	<build_depend>message_generation</build_depend>
+	<build_depend>robotnik_msgs</build_depend>
+	<build_depend>roscpp</build_depend>
+	<build_depend>rospy</build_depend>
+	<build_depend>sensor_msgs</build_depend>
+	<run_depend>diagnostic_updater</run_depend>
+	<run_depend>geometry_msgs</run_depend>
+	<run_depend>message_runtime</run_depend>
+	<run_depend>robotnik_msgs</run_depend>
+	<run_depend>roscpp</run_depend>
+	<run_depend>rospy</run_depend>
+	<run_depend>sensor_msgs</run_depend>
+
+</package>
