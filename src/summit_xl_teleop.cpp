@@ -301,7 +301,7 @@ void SummitXLPad::padCallback(const sensor_msgs::Joy::ConstPtr& joy){
 	// PTZ Movements
 	if (joy->buttons[button_update_ptz_] == 1) {
 		if(!bRegisteredButtonEvent[button_update_ptz_]){
-			ptz.relative = true;
+			ptz.relative = false;
 			ptz.pan = -scale_pan_*ptz_vel*joy->axes[pan_];
 			ptz.tilt = scale_tilt_*ptz_vel*joy->axes[tilt_];
 			ptz.zoom = scale_zoom_*(joy->axes[zoom_wide_] - joy->axes[zoom_tele_]);

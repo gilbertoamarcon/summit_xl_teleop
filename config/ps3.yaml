@@ -1,4 +1,4 @@
-num_of_buttons: 15 
+num_of_buttons: 16 
 
 # Analog Axis
 axis_angular: 0
@@ -11,13 +11,13 @@ axis_zoom_tele: 13
 # Axis Scaling
 scale_linear: 1.5
 scale_angular: 1.5
-scale_pan: 45 
-scale_tilt: 45 
+scale_pan: 90 
+scale_tilt: 90 
 scale_zoom: 3000 
 
 # Digital Buttons
-button_dead_man: 11
 button_update_ptz: 10
+button_dead_man: 11
 button_ptz_reset: 2
 button_vel_inc: 12
 button_vel_dec: 14
