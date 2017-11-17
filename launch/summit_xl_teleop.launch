@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <launch>
 
+	<!-- rosnode kill /ps3_joy /summit_xl_pad -->
+
 	<!-- joy node -->
 	<node pkg="joy" type="joy_node" name="ps3_joy" output="screen" respawn="false">
 		<param name="dev" type="string" value="/dev/input/js0" />
